@@ -1,5 +1,5 @@
 export class A {
-    get(id: string): string {
+    get(): string {
         return 'a';
     }
 }

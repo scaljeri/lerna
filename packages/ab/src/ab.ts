@@ -1,7 +1,7 @@
-import { A } from 'a';
-import { B } from 'b';
+import { A } from '@scaljeri/a';
+import { B } from '@scaljeri/b';
 
-export class Ab {
+class Ab {
     getA(): A {
         return new A();
     }
@@ -10,3 +10,8 @@ export class Ab {
         return new B();
     }
 }
+
+const ab = new Ab();
+
+console.log(ab.getB().get());
+console.log(ab.getA().get());
