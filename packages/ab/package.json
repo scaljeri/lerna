@@ -16,5 +16,9 @@
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@scaljeri/a": "^0.0.1",
+    "@scaljeri/b": "^0.0.1"
   }
 }
